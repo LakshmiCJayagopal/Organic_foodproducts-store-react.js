@@ -1,0 +1,85 @@
+.vh {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 2em;
+    background: linear-gradient(to right, #809480, #27542d);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.vh h1 {
+    margin: 0;
+}
+.veget {
+    padding: 7px;
+    background: rgb(230, 230, 217);
+  }
+  
+  .ve {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .veg {
+    padding: 10px;
+    flex: 1 1 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .hovereffect {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .hovereffect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .cardi {
+    max-width: 70%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardi img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .cardi .card-body {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .cardi .card-title {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .cardi .card-text {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .veg {
+      flex: 1 1 1 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .veg {
+      flex: 1 1 100%;
+    }
+  }

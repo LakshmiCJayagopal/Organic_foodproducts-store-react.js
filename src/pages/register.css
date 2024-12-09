@@ -1,0 +1,74 @@
+/* register.css */
+
+
+.reg {
+    background-color: white;
+    padding: 40px;
+    margin-left: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reg form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg .h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.reg label {
+    margin: 10px 0 5px 0;
+    color: #333;
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+.reg input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.reg button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.reg button:hover {
+    background-color: #e5533c;
+}
+
+.loginsignuplogin {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.loginsignuplogin span {
+    color: #ff6347;
+}
+
+.loginsignuplogin span a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+.loginsignuplogin span a:hover {
+    text-decoration: underline;
+}

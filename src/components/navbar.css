@@ -1,0 +1,100 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fefefe;
+    padding: 15px 70px;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.navlogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.navlogo img {
+    height: 40px;
+    margin-right: 10px;
+    width: 55px;
+    height: 55px;
+}
+
+.navlogo p {
+    color: #417b40;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.navlogo ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navlogo ul li {
+    margin: 0 10px;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navlogo ul li:hover {
+    text-decoration: underline;
+}
+.navlogo u {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navlogo u li {
+    margin: 0 10px;
+    color: #060606;
+    cursor: pointer;
+}
+
+.navlogo u li:hover {
+    color: #474646;
+}
+.search,
+.user,
+.cart,
+.admin ,
+.logout{
+  color: rgb(210, 42, 42); /* Icon color */
+  font-size: 1.6rem; /* Icon size */
+  margin-left: 20px; /* Margin between icons */
+  transition: color 0.3s ease; /* Smooth transition for icon color */
+}
+.search:hover,
+.user:hover,
+.cart:hover,
+.admin:hover ,
+.logout:hover{
+  color: #35973f; /* Lighter icon color on hover */
+}
+.navcartcount{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: -20px;
+    font-size: 14px;
+    background: rgb(27, 141, 42);
+    color: white;
+}

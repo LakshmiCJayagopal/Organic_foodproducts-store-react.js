@@ -1,0 +1,47 @@
+/* UserProfile.css */
+
+.abcd {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.abcd h1 {
+    text-align: center;
+    color: #333;
+}
+
+.abcd > div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.abcd p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.abcd .userlog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.abcd .userlog button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.abcd .userlog button:hover {
+    background-color: #218838;
+}
